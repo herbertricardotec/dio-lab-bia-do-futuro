@@ -1,18 +1,18 @@
-# 🎓 Edu - Educador Financeiro Inteligente
+# 🎓 Financi - Financicador Financeiro Inteligente
 
 > Agente de IA Generativa que ensina conceitos de finanças pessoais de forma simples e personalizada, usando os próprios dados do cliente como exemplos práticos.
 
-## 💡 O Que é o Edu?
+## 💡 O Que é o Financi?
 
-O Edu é um educador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
+O Financi é um Financicador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
 
-**O que o Edu faz:**
+**O que o Financi faz:**
 - ✅ Explica conceitos financeiros de forma simples
 - ✅ Usa dados do cliente como exemplos práticos
 - ✅ Responde dúvidas sobre produtos financeiros
-- ✅ Analisa padrões de gastos de forma educativa
+- ✅ Analisa padrões de gastos de forma Financicativa
 
-**O que o Edu NÃO faz:**
+**O que o Financi NÃO faz:**
 - ❌ Não recomenda investimentos específicos
 - ❌ Não acessa dados bancários sensíveis
 - ❌ Não substitui um profissional certificado
@@ -25,7 +25,7 @@ flowchart TD
     B --> C[Ollama - LLM Local]
     C --> D[Base de Conhecimento]
     D --> C
-    C --> E[Resposta Educativa]
+    C --> E[Resposta Financicativa]
 ```
 
 **Stack:**
@@ -69,7 +69,7 @@ ollama serve
 pip install streamlit pandas requests
 ```
 
-### 3. Rodar o Edu
+### 3. Rodar o Financi
 
 ```bash
 streamlit run src/app.py
@@ -78,10 +78,10 @@ streamlit run src/app.py
 ## 🎯 Exemplo de Uso
 
 **Pergunta:** "O que é CDI?"  
-**Edu:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
+**Financi:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
 
 **Pergunta:** "Onde estou gastando mais?"  
-**Edu:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
+**Financi:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
 
 ## 📊 Métricas de Avaliação
 
@@ -95,7 +95,7 @@ streamlit run src/app.py
 
 - **Personalização:** Usa os dados do próprio cliente nos exemplos
 - **100% Local:** Roda com Ollama, sem enviar dados para APIs externas
-- **Educativo:** Foco em ensinar, não em vender produtos
+- **Financicativo:** Foco em ensinar, não em vender produtos
 - **Seguro:** Estratégias de anti-alucinação documentadas
 
 ## 📝 Documentação Completa
